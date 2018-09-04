@@ -1,0 +1,45 @@
+.friendsContainer {
+    background-color: grey;
+    width: 33.33%;
+    height: 92vh;
+    h2 {
+        padding: 10px;
+        border-bottom: 1px solid black;
+        margin: 0;
+    }
+}
+
+.profile {
+    display: flex;
+    flex-basis: 1 1 100%;
+    border-bottom: 1px solid black;
+}
+
+.listofFriends {
+    height: 612px;
+    overflow-y: scroll;
+}
+
+.information {
+    padding-left: 20px;
+    flex: 1 1 100%;
+    text-align: left;
+    h3 {
+        margin-top: 10px;
+    }
+    .span {
+        font-weight: bold;
+    }
+}
+
+img {
+    width: 124px;
+    height: 124px;
+}
+
+@media (max-width: 1010px) {
+
+    .friendsContainer {
+        display: none;
+    }
+}

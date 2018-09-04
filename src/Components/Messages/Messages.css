@@ -1,0 +1,16 @@
+.listName, .listMessage {
+  list-style-type: none;
+  padding: 2px 0;
+  width: 80%;
+  word-wrap: break-word; }
+
+.listName {
+  font-weight: bold; }
+
+.totalMessages {
+  margin: 5px 0; }
+
+.time {
+  font-size: 10px;
+  color: gray;
+  padding-left: 5px; }

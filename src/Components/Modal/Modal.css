@@ -1,0 +1,57 @@
+.modalBackground {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  z-index: 30; }
+
+.modalContainer {
+  position: relative;
+  background-color: white;
+  width: 50%;
+  min-height: 500px;
+  top: 10%;
+  left: 25%;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); }
+
+.modalProfile {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center; }
+  .modalProfile div {
+    margin: 10px 0; }
+  .modalProfile input {
+    margin-left: 10px; }
+  .modalProfile label {
+    margin-left: 10px; }
+  .modalProfile input[type=submit] {
+    width: 20%;
+    text-align: center;
+    margin: 20px auto; }
+
+.theEx {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px; }
+
+.submitButton {
+  padding: 20px;
+  background-color: slategray;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform; }
+
+.submitButton:hover {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }

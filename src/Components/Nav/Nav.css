@@ -1,0 +1,38 @@
+.navBar {
+  width: 100%; }
+
+nav {
+  display: flex;
+  justify-content: space-between; }
+  nav h1 {
+    margin: 0;
+    padding: 5px; }
+  nav .icon {
+    display: none; }
+
+.nav {
+  display: flex;
+  justify-content: space-between; }
+  .nav ul {
+    padding: 0; }
+  .nav li {
+    padding: 0 20px;
+    list-style-type: none; }
+  .nav a {
+    text-decoration: none;
+    color: black; }
+  .nav a:hover {
+    color: red; }
+
+@media (max-width: 1010px) {
+  nav h1 {
+    display: none; }
+  .nav {
+    justify-content: flex-start; }
+  nav .icon {
+    display: block;
+    font-size: 20px;
+    margin: 0;
+    padding: 15px 15px; }
+  nav .icon:hover {
+    color: red; } }
